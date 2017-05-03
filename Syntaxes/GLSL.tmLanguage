@@ -76,6 +76,35 @@
 			<key>include</key>
 			<string>source.c</string>
 		</dict>
+		<dict>
+			<key>include</key>
+			<string>#pragma-mark</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^\s*#\s*(version|extension)\b</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.import.glsl</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?=(?://|/\*))|$</string>
+			<key>name</key>
+			<string>meta.preprocessor.glsl</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>(?&gt;\\\s*\n)</string>
+					<key>name</key>
+					<string>punctuation.separator.continuation.glsl</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.glsl</string>
