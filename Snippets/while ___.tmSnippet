@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>while (${1:/* condition */})
-{
+	<string>while (${1:/* condition */}) {
 	${0:/* code */}
 }</string>
 	<key>name</key>

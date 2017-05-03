@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>void main()
-{
+	<string>void main() {
 	${0:/* code */}
 }</string>
 	<key>name</key>

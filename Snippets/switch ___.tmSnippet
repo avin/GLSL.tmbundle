@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>switch(${1:/* statement */})
-{
+	<string>switch (${1:/* statement */}) {
 	case ${0:/* expression */}:
 	default:
 }</string>

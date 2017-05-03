@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>struct ${1:/* name */} 
-{
+	<string>struct ${1:/* name */} {
 	${0:/* data */}
 };</string>
 	<key>name</key>

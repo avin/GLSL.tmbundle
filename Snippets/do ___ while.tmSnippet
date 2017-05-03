@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>do {
 	${0:/* code */}
-} while(${1:/* condition */});</string>
+} while (${1:/* condition */});</string>
 	<key>name</key>
 	<string>do ... while</string>
 	<key>scope</key>

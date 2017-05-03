@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>for(int ${2:i} = 0; $2 &lt; ${1:count}; $2++)
-{
+	<string>for(int ${2:i} = 0; $2 &lt; ${1:count}; $2++) {
 	${0:/* code */}
 }</string>
 	<key>name</key>
