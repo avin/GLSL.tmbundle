@@ -74,11 +74,15 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.c</string>
+			<string>source.c#access</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#pragma-mark</string>
+			<string>source.c#comments</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.c#pragma-mark</string>
 		</dict>
 		<dict>
 			<key>begin</key>
